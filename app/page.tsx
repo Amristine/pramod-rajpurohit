@@ -112,8 +112,8 @@ export default function Home() {
   return (
     <main>
       <header className="nav-shell">
-        <a href="#home" className="brand" aria-label="Avnish Yadav home">
-          <span className="brand-name">AVNISH</span><span className="brand-rule" />
+        <a href="#home" className="brand" aria-label="Pramod Rajpurohit home">
+          <span className="brand-name">PRAMOD</span><span className="brand-rule" />
           <span className="brand-sub">VIDEO PRODUCTION<br />&amp; TEAM LEADERSHIP</span>
         </a>
         <nav className="desktop-nav" aria-label="Main navigation">
@@ -137,7 +137,7 @@ export default function Home() {
           initial={reduceMotion ? false : { opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.1, ease: "easeOut" }}
-        >AVNISH</motion.div>
+        >PRAMOD</motion.div>
         <motion.div
           className="portfolio-hero-copy"
           initial={reduceMotion ? false : { opacity: 1 }}
@@ -174,7 +174,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.9, delay: 1.45, ease: "easeOut" }}
         >
-          <img src="/portrait3.png" alt="Portrait of Avnish Yadav" />
+          <img src="/portrait3.png" alt="Portrait of Pramod Rajpurohit" />
         </motion.div>
         <motion.div
           className="portfolio-hero-side"
@@ -278,7 +278,7 @@ export default function Home() {
             </div>
           </div>
           <aside className="contact-visual" aria-label="Contact invitation">
-            <span className="contact-visual-index">AVNISH YADAV <span>·</span> VIDEO EDITOR</span>
+            <span className="contact-visual-index">PRAMOD YADAV <span>·</span> VIDEO EDITOR</span>
             <div className="contact-orbit" aria-hidden="true"><span /><span /><span /></div>
             <p className="contact-visual-kicker">GOOD STORIES START<br />WITH A CONVERSATION.</p>
             <a className="contact-visual-link" href="https://wa.me/919930014023" target="_blank" rel="noreferrer">Start a conversation <ArrowUpRight size={18}/></a>
@@ -288,9 +288,9 @@ export default function Home() {
       </section>
 
       <footer className="site-footer">
-        <a href="#home" className="brand footer-brand"><span className="brand-name">AVNISH</span><span className="brand-rule"/><span className="brand-sub">VIDEO PRODUCTION<br/>&amp; TEAM LEADERSHIP</span></a>
+        <a href="#home" className="brand footer-brand"><span className="brand-name">PRAMOD</span><span className="brand-rule"/><span className="brand-sub">VIDEO PRODUCTION<br/>&amp; TEAM LEADERSHIP</span></a>
         <nav className="footer-nav"><a href="#work">Work</a><a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a></nav>
-        <span className="copyright">© {new Date().getFullYear()} AVNISH YADAV. ALL RIGHTS RESERVED.</span>
+        <span className="copyright">© {new Date().getFullYear()} PRAMOD YADAV. ALL RIGHTS RESERVED.</span>
       </footer>
 
     </main>
