@@ -174,7 +174,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.9, delay: 1.45, ease: "easeOut" }}
         >
-          <img src="/portrait3.png" alt="Portrait of Pramod Rajpurohit" />
+          <img src="/images/pramod-headshot.png" alt="Portrait of Pramod Rajpurohit" />
         </motion.div>
         <motion.div
           className="portfolio-hero-side"
