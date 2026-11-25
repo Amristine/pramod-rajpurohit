@@ -1323,14 +1323,14 @@ a.contact-detail:hover { color: var(--ink); }
 }
 
 
-/* Slightly enlarge the PRAMOD hero wordmark on mobile */
+/* Enlarge the PRAMOD hero wordmark further on mobile */
 @media (max-width: 760px) {
   .portfolio-wordmark {
-    font-size: clamp(66px, 20vw, 120px) !important;
+    font-size: clamp(68px, 22vw, 120px) !important;
   }
 }
 @media (max-width: 390px) {
   .portfolio-wordmark {
-    font-size: clamp(64px, 19.5vw, 76px) !important;
+    font-size: clamp(66px, 21.5vw, 84px) !important;
   }
 }
