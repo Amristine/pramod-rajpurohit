@@ -10,11 +10,11 @@ import {
 
 const projects = [
   {
-    number: "01", title: "Video Project 01", category: "Video", services: "Editing · Color Grading",
+    number: "01", title: "AI Film 01", category: "AI video", services: "Generative AI · Visual storytelling",
     video: "/videoav.mp4", previewAt: 4
   },
   {
-    number: "02", title: "Video Project 02", category: "Video", services: "Editing · Color Grading",
+    number: "02", title: "AI Film 02", category: "AI video", services: "Generative AI · Visual storytelling",
     video: "/videoav1.mp4", previewAt: 9
   },
 ];
