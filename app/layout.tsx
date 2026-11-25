@@ -4,12 +4,12 @@ import "./globals.css";
 export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover" };
 
 export const metadata: Metadata = {
-  title: "FRAME — Cinematic Editing & Color",
-  description: "Cinematic editing and color grading for brands, creators, and stories that deserve to be seen.",
-  metadataBase: new URL("https://example.com"),
+  title: "Pramod Rajpurohit — Video Editor & Colorist",
+  description: "Video editing and color grading by Pramod Rajpurohit.",
+  metadataBase: new URL("https://github.com/Amristine/pramod-rajpurohit"),
   openGraph: {
-    title: "FRAME — Cinematic Editing & Color",
-    description: "Every frame. A feeling.",
+    title: "Pramod Rajpurohit — Video Editor & Colorist",
+    description: "Pramod Rajpurohit — Video Editor & Colorist.",
     type: "website",
   },
 };
