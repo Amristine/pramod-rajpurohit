@@ -1334,3 +1334,20 @@ a.contact-detail:hover { color: var(--ink); }
     font-size: clamp(66px, 21.5vw, 84px) !important;
   }
 }
+
+
+/* Make the PRAMOD wordmark more prominent on mobile while keeping it centered */
+@media (max-width: 760px) {
+  .portfolio-wordmark {
+    font-size: clamp(82px, 25vw, 150px) !important;
+    left: 50% !important;
+    width: 100% !important;
+    transform: translateX(-50%) scaleX(.88) !important;
+    transform-origin: center center;
+  }
+}
+@media (max-width: 390px) {
+  .portfolio-wordmark {
+    font-size: clamp(78px, 25vw, 98px) !important;
+  }
+}
