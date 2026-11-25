@@ -278,7 +278,7 @@ export default function Home() {
             <p className="eyebrow muted">Have a project in mind?</p>
             <h2 className="section-title serif">Let&apos;s make something<br /><em>worth watching.</em></h2>
             <p className="body-copy">Tell me a little about what you&apos;re creating. I&apos;d love to hear the idea and how I can help bring it to the screen.</p>
-            <a className="contact-detail" href="mailto:pramod.s.works@gmail.com"><Mail size={15}/> pramod.s.works@gmail.com <ArrowUpRight size={13}/></a>
+            <a className="contact-detail" href="https://mail.google.com/mail/?view=cm&fs=1&to=pramod.s.works%40gmail.com" target="_blank" rel="noopener noreferrer"><Mail size={15}/> pramod.s.works@gmail.com <ArrowUpRight size={13}/></a>
             <a className="contact-detail" href="tel:+918591071150"><Phone size={15}/> +91 85910 71150 <ArrowUpRight size={13}/></a>
             <div className="contact-detail"><MapPin size={15}/> Mumbai, Maharashtra, India · Available worldwide</div>
             <div className="social-links contact-socials">
