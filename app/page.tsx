@@ -284,7 +284,6 @@ export default function Home() {
             <div className="social-links contact-socials">
               <a href="https://www.linkedin.com/in/professionalpramod/" target="_blank" rel="noreferrer" aria-label="LinkedIn Pramod Rajpurohit"><Linkedin size={16}/><span>LinkedIn</span><ArrowUpRight size={12}/></a>
               <a href="https://www.instagram.com/meinpramod/" target="_blank" rel="noreferrer" aria-label="Instagram @meinpramod"><Instagram size={16}/><span>@meinpramod</span><ArrowUpRight size={12}/></a>
-              <a href="https://x.com/PramodRJpuroht" target="_blank" rel="noreferrer" aria-label="X @PramodRJpuroht"><ArrowUpRight size={16}/><span>@PramodRJpuroht</span><ArrowUpRight size={12}/></a>
             </div>
           </div>
           <aside className="contact-visual" aria-label="Contact invitation">
