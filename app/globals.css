@@ -1351,3 +1351,16 @@ a.contact-detail:hover { color: var(--ink); }
     font-size: clamp(78px, 25vw, 98px) !important;
   }
 }
+
+
+/* Move the PRAMOD wordmark slightly higher on mobile */
+@media (max-width: 760px) {
+  .portfolio-wordmark {
+    top: 27% !important;
+  }
+}
+@media (max-width: 390px) {
+  .portfolio-wordmark {
+    top: 27% !important;
+  }
+}
