@@ -1321,3 +1321,16 @@ a.contact-detail:hover { color: var(--ink); }
     font-size: clamp(58px, 17.5vw, 68px) !important;
   }
 }
+
+
+/* Slightly enlarge the PRAMOD hero wordmark on mobile */
+@media (max-width: 760px) {
+  .portfolio-wordmark {
+    font-size: clamp(66px, 20vw, 120px) !important;
+  }
+}
+@media (max-width: 390px) {
+  .portfolio-wordmark {
+    font-size: clamp(64px, 19.5vw, 76px) !important;
+  }
+}
