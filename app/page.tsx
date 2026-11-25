@@ -241,12 +241,19 @@ export default function Home() {
         <div className="about-copy">
           <p className="eyebrow muted">A little about me</p>
           <h2 className="section-title serif">Not just cutting clips.<br /><em>Finding the story.</em></h2>
-          <p className="body-copy">I&apos;m a Generative AI filmmaker creating commercial ads, UGC, and AI-powered visual experiences. I bring concepts to life through AI filmmaking, creative direction, and emerging tools.</p>
-          <p className="body-copy">I work across AI filmmaking, commercial advertising, UGC, and AI agents, helping turn ideas into engaging digital experiences.</p>
+          <p className="body-copy">I&apos;m Pramod Rajpurohit, a Generative AI creator focused on image and video production. For 2+ years, I&apos;ve been exploring how generative tools can turn creative ideas into cinematic visuals, branded films, and social-first content.</p>
+          <p className="body-copy">My work spans AI filmmaking, commercial advertising, UGC-style content, visual storytelling, and creative production. I&apos;m based in Mumbai and open to working with teams and clients worldwide.</p>
           <a className="text-link" href="#contact">Let&apos;s get to know each other <ArrowRight size={14}/></a>
           <div className="about-stats"><div><strong>2<span>+</span></strong><small>Years in GenAI</small></div><div><strong>AI</strong><small>Image &amp; video</small></div><div><strong>Mumbai</strong><small>India</small></div></div>
-          <p className="body-copy" style={{marginTop:"1.5rem"}}><strong>Tools:</strong> Seedance 2.5, Midjourney, Higgsfield, Kling, and Runway.</p>
-          <p className="body-copy"><strong>Education:</strong> Pillai College of Arts, Commerce and Science (2022–2025).</p>
+          <div className="profile-details" style={{marginTop:"1.5rem"}}>
+            <p className="eyebrow muted">Creative toolkit</p>
+            <p className="body-copy"><strong>AI image &amp; video:</strong> Seedance 2.5, Midjourney, Higgsfield, Kling, and Runway.</p>
+            <p className="body-copy"><strong>Core skills:</strong> Generative AI content creation, AI video production, image generation, visual concept development, and commercial creative content.</p>
+            <p className="eyebrow muted" style={{marginTop:"1.5rem"}}>Experience &amp; education</p>
+            <p className="body-copy"><strong>2+ years:</strong> Generative AI image and video creation.</p>
+            <p className="body-copy"><strong>AIKONS:</strong> Listed in professional experience on LinkedIn.</p>
+            <p className="body-copy"><strong>Education:</strong> Pillai College of Arts, Commerce and Science (2022–2025).</p>
+          </div>
         </div>
       </section>
 
@@ -254,13 +261,13 @@ export default function Home() {
         <div className="wrap">
           <div className="services-heading">
             <div><p className="eyebrow bronze">What I can help with</p><h2 className="section-title serif">From raw footage<br />to <em>something you feel.</em></h2></div>
-            <div className="services-aside"><p>AI-powered filmmaking and creative production for brands and creators, from commercial ads and UGC to AI agent experiences.</p><a className="text-link light-link" href="#contact">Discuss your project <ArrowUpRight size={14}/></a></div>
+            <div className="services-aside"><p>Generative AI image and video creation for brands, creators, and digital campaigns.</p><a className="text-link light-link" href="#contact">Discuss your project <ArrowUpRight size={14}/></a></div>
           </div>
           <div className="service-grid">
             <article className="service-item"><Scissors size={21}/><span className="service-index">01</span><h3>AI filmmaking</h3><p>AI-generated films and cinematic video concepts built around strong visual storytelling.</p></article>
             <article className="service-item"><UsersRound size={21}/><span className="service-index">02</span><h3>AI commercial ads</h3><p>Scroll-stopping AI-powered advertisements and product visuals for brands.</p></article>
             <article className="service-item"><Layers3 size={21}/><span className="service-index">03</span><h3>UGC content</h3><p>AI-assisted creator-style content designed for social platforms and digital campaigns.</p></article>
-            <article className="service-item"><Clapperboard size={21}/><span className="service-index">04</span><h3>AI agents</h3><p>Creative AI agent experiences that help automate tasks and support digital workflows.</p></article>
+            <article className="service-item"><Clapperboard size={21}/><span className="service-index">04</span><h3>Creative production</h3><p>Visual concept development and creative execution for digital-first campaigns.</p></article>
           </div>
         </div>
       </section>
@@ -291,7 +298,7 @@ export default function Home() {
       </section>
 
       <footer className="site-footer">
-        <a href="#home" className="brand footer-brand"><span className="brand-name">PRAMOD</span><span className="brand-rule"/><span className="brand-sub">VIDEO PRODUCTION<br/>&amp; TEAM LEADERSHIP</span></a>
+        <a href="#home" className="brand footer-brand"><span className="brand-name">PRAMOD</span><span className="brand-rule"/><span className="brand-sub">AI FILMMAKING<br/>&amp; CREATIVE PRODUCTION</span></a>
         <nav className="footer-nav"><a href="#work">Work</a><a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a></nav>
         <span className="copyright">© {new Date().getFullYear()} PRAMOD RAJPUROHIT. ALL RIGHTS RESERVED.</span>
       </footer>
