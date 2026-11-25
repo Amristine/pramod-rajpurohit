@@ -168,14 +168,15 @@ export default function Home() {
             transition={{ duration: 0.4, delay: 1.05 }}
           >Explore selected work <ArrowRight size={14}/></motion.a>
         </motion.div>
-        <motion.div
-          className="portfolio-portrait"
-          initial={reduceMotion ? false : { opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.9, delay: 1.45, ease: "easeOut" }}
-        >
-          <img src="/images/pramod-headshot.png" alt="Portrait of Pramod Rajpurohit" />
-        </motion.div>
+        <div className="portfolio-portrait">
+          <img
+            src="/images/pramod-headshot.png"
+            alt="Portrait of Pramod Rajpurohit"
+            loading="eager"
+            fetchPriority="high"
+            decoding="sync"
+          />
+        </div>
         <motion.div
           className="portfolio-hero-side"
           initial={reduceMotion ? false : { opacity: 0 }}
