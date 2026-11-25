@@ -4,12 +4,12 @@ import "./globals.css";
 export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover" };
 
 export const metadata: Metadata = {
-  title: "Pramod Rajpurohit — Video Editor & Colorist",
-  description: "Video editing and color grading by Pramod Rajpurohit.",
-  metadataBase: new URL("https://github.com/Amristine/pramod-rajpurohit"),
+  title: "Pramod Rajpurohit — Generative AI Artist",
+  description: "Generative AI artist and content creator creating AI-generated images and videos.",
+  metadataBase: new URL("https://pramodrajpurohit.com"),
   openGraph: {
-    title: "Pramod Rajpurohit — Video Editor & Colorist",
-    description: "Pramod Rajpurohit — Video Editor & Colorist.",
+    title: "Pramod Rajpurohit — Generative AI Artist",
+    description: "Pramod Rajpurohit — Generative AI Artist.",
     type: "website",
   },
 };
