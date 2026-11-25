@@ -1304,3 +1304,20 @@ a.contact-detail:hover { color: var(--ink); }
   display: inline-block;
 }
 
+
+
+/* Keep the PRAMOD hero wordmark fully visible on mobile screens */
+@media (max-width: 760px) {
+  .portfolio-wordmark {
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline: 8px;
+    font-size: clamp(60px, 18vw, 108px) !important;
+    letter-spacing: -0.035em !important;
+  }
+}
+@media (max-width: 390px) {
+  .portfolio-wordmark {
+    font-size: clamp(58px, 17.5vw, 68px) !important;
+  }
+}
