@@ -114,7 +114,7 @@ export default function Home() {
       <header className="nav-shell">
         <a href="#home" className="brand" aria-label="Pramod Rajpurohit home">
           <span className="brand-name">PRAMOD</span><span className="brand-rule" />
-          <span className="brand-sub">GENERATIVE AI<br />&amp; VISUAL STORYTELLING</span>
+          <span className="brand-sub">AI FILMMAKER<br />&amp; CREATIVE PRODUCTION</span>
         </a>
         <nav className="desktop-nav" aria-label="Main navigation">
           <a href="#work">Work</a><a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a>
@@ -148,7 +148,7 @@ export default function Home() {
             initial={reduceMotion ? false : { opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.35, delay: 0.1 }}
-          >GENERATIVE AI ARTIST</motion.p>
+          >GENERATIVE AI FILMMAKER</motion.p>
           <h1>
             <motion.span className="hero-word" variants={wordReveal} initial={reduceMotion ? false : "hidden"} animate="visible" transition={{ delay: 0.2 }}>Stories</motion.span>{" "}
             <motion.span className="hero-word" variants={wordReveal} initial={reduceMotion ? false : "hidden"} animate="visible" transition={{ delay: 0.34 }}>shaped</motion.span><br />
@@ -159,7 +159,7 @@ export default function Home() {
             initial={reduceMotion ? false : { opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.45, delay: 0.82 }}
-          >I create AI-generated images and videos, turning ideas into distinctive visual stories for brands and creators.</motion.p>
+          >I create AI-powered films, commercial ads, UGC content, and AI agent experiences for brands and creators.</motion.p>
           <motion.a
             className="btn btn-paper"
             href="#work"
@@ -181,7 +181,7 @@ export default function Home() {
           initial={reduceMotion ? false : { opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.7, delay: 0.65 }}
-        >GENERATIVE AI / VIDEO / VISUALS</motion.div>
+        >AI FILMMAKING / COMMERCIALS / UGC</motion.div>
         <motion.div
           className="portfolio-hero-bottom"
           initial={reduceMotion ? false : { opacity: 0 }}
@@ -241,8 +241,8 @@ export default function Home() {
         <div className="about-copy">
           <p className="eyebrow muted">A little about me</p>
           <h2 className="section-title serif">Not just cutting clips.<br /><em>Finding the story.</em></h2>
-          <p className="body-copy">I&apos;m a Generative AI artist and content creator focused on building compelling visuals and video experiences. I work across AI image and video generation, combining creative direction with emerging tools.</p>
-          <p className="body-copy">With 2+ years of experience in Generative AI image and video creation, I help turn concepts into polished visual content for brands and creators.</p>
+          <p className="body-copy">I&apos;m a Generative AI filmmaker creating commercial ads, UGC, and AI-powered visual experiences. I bring concepts to life through AI filmmaking, creative direction, and emerging tools.</p>
+          <p className="body-copy">I work across AI filmmaking, commercial advertising, UGC, and AI agents, helping turn ideas into engaging digital experiences.</p>
           <a className="text-link" href="#contact">Let&apos;s get to know each other <ArrowRight size={14}/></a>
           <div className="about-stats"><div><strong>2<span>+</span></strong><small>Years in GenAI</small></div><div><strong>AI</strong><small>Image &amp; video</small></div><div><strong>Mumbai</strong><small>India</small></div></div>
           <p className="body-copy" style={{marginTop:"1.5rem"}}><strong>Tools:</strong> Seedance 2.5, Midjourney, Higgsfield, Kling, and Runway.</p>
@@ -254,13 +254,13 @@ export default function Home() {
         <div className="wrap">
           <div className="services-heading">
             <div><p className="eyebrow bronze">What I can help with</p><h2 className="section-title serif">From raw footage<br />to <em>something you feel.</em></h2></div>
-            <div className="services-aside"><p>Generative AI content for brands and creators, from image concepts to AI-powered video storytelling.</p><a className="text-link light-link" href="#contact">Discuss your project <ArrowUpRight size={14}/></a></div>
+            <div className="services-aside"><p>AI-powered filmmaking and creative production for brands and creators, from commercial ads and UGC to AI agent experiences.</p><a className="text-link light-link" href="#contact">Discuss your project <ArrowUpRight size={14}/></a></div>
           </div>
           <div className="service-grid">
-            <article className="service-item"><Scissors size={21}/><span className="service-index">01</span><h3>AI video creation</h3><p>Generative video concepts and visual storytelling using modern AI video tools.</p></article>
-            <article className="service-item"><UsersRound size={21}/><span className="service-index">02</span><h3>AI image generation</h3><p>Creating distinctive AI-generated images and visual assets for creative campaigns.</p></article>
-            <article className="service-item"><Layers3 size={21}/><span className="service-index">03</span><h3>Creative direction</h3><p>Shaping concepts, references, and visual styles into cohesive creative outputs.</p></article>
-            <article className="service-item"><Clapperboard size={21}/><span className="service-index">04</span><h3>Content creation</h3><p>Developing AI-powered content for digital platforms, brands, and creator projects.</p></article>
+            <article className="service-item"><Scissors size={21}/><span className="service-index">01</span><h3>AI filmmaking</h3><p>AI-generated films and cinematic video concepts built around strong visual storytelling.</p></article>
+            <article className="service-item"><UsersRound size={21}/><span className="service-index">02</span><h3>AI commercial ads</h3><p>Scroll-stopping AI-powered advertisements and product visuals for brands.</p></article>
+            <article className="service-item"><Layers3 size={21}/><span className="service-index">03</span><h3>UGC content</h3><p>AI-assisted creator-style content designed for social platforms and digital campaigns.</p></article>
+            <article className="service-item"><Clapperboard size={21}/><span className="service-index">04</span><h3>AI agents</h3><p>Creative AI agent experiences that help automate tasks and support digital workflows.</p></article>
           </div>
         </div>
       </section>
@@ -281,7 +281,7 @@ export default function Home() {
             </div>
           </div>
           <aside className="contact-visual" aria-label="Contact invitation">
-            <span className="contact-visual-index">PRAMOD RAJPUROHIT <span>·</span> GENERATIVE AI ARTIST</span>
+            <span className="contact-visual-index">PRAMOD RAJPUROHIT <span>·</span> GENERATIVE AI FILMMAKER</span>
             <div className="contact-orbit" aria-hidden="true"><span /><span /><span /></div>
             <p className="contact-visual-kicker">GOOD STORIES START<br />WITH A CONVERSATION.</p>
             <a className="contact-visual-link" href="https://wa.me/918591071150" target="_blank" rel="noreferrer">Start a conversation <ArrowUpRight size={18}/></a>
