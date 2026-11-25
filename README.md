@@ -1,6 +1,6 @@
-# FRAME — Cinematic Video Editor Portfolio
+# Pramod Rajpurohit — Video Editor Portfolio
 
-A modern editorial portfolio starter for a video editor and colorist, built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
+Portfolio website for Pramod Rajpurohit, built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
 
 ## Run locally
 
